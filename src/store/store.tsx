@@ -3,7 +3,7 @@ import { catsApi } from '../services/catsApi';
 import authReducer from './slices/authSlice';
 import themeReducer from './slices/themeSlice';
 
-const customMiddleware: Middleware = (store) => (next) => (action) => {
+const customMiddleware: Middleware = () => (next) => (action) => {
   const result = next(action);
   return result;
 };
