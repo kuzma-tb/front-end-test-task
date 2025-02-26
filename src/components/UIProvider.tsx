@@ -1,4 +1,4 @@
-import { FC, ReactNode, useEffect, useMemo } from 'react';
+import { FC, ReactNode, useEffect } from 'react';
 import { useLocation } from 'react-router';
 import { useAppSelector } from '../store/hooks';
 import { selectTheme } from '../store/slices/themeSlice';
